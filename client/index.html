@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клиенты</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a href="#" class="header-logo"></a>
+            <div class="header-form">
+                <input type="text" class="header-input" id="search-input" name="query" placeholder="Geben Sie Ihre Anfrage ein"
+                    aria-label="Поиск" required>
+            </div>
+        </div>
+    </header>
+
+    <section class="tabelle">
+        <div class="container" id="section-table">
+            <h1 class="main-title">Kundentisch</h1>
+            <h2 class="title tabelle-title">Kunden</h2>
+            <div id="table-container" class="table-container flex">
+                <table class="table loading" id="data-table">
+                    <thead>
+                        <tr>
+                            <th id="ID"></th>
+                            <th id="fullname"></th>
+                            <th id="date"></th>
+                            <th id="last-update"></th>
+                            <th id="contacts">Kontakte</th>
+                            <th id="action">Aktionen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+                <div id="loader" class="loader"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

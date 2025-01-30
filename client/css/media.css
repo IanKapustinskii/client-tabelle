@@ -1,0 +1,165 @@
+@media (max-width: 1100px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .tabelle .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tabelle-title {
+        margin-bottom: 10px;
+    }
+
+    .table th:nth-child(2),
+    .table td:nth-child(2) {
+        width: 17.13%;
+    }
+
+    .table th:nth-child(6),
+    .table td:nth-child(6) {
+        padding-right: 20px;
+    }
+
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        width: 12.42%;
+    }
+
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        width: 12.49%;
+    }
+
+    .buttons-wrapper {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .buttons-wrapper {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .table th:nth-child(1),
+    .table td:nth-child(1) {
+        width: 10.9%;
+    }
+
+    .table th:nth-child(6),
+    .table td:nth-child(6) {
+        width: 13.63%;
+    }
+
+    .table th:nth-child(5),
+    .table td:nth-child(5) {
+        padding-left: 0;
+    }
+
+    .table th:nth-child(2),
+    .table td:nth-child(2) {
+        width: 20.13%;
+    }
+
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        width: 11.42%;
+    }
+
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        width: 11.49%;
+    }
+
+    .span-date {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .table tbody,
+    .table thead {
+        width: 728px;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .table-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+    .header-form {
+        display: none;
+    }
+
+    .header .container {
+        justify-content: center;
+    }
+
+    .header-logo {
+        background-image: url(../img/logo-small.jpg);
+        width: 24px;
+        height: 24px;
+        margin: 0;
+    }
+
+    .change-form,
+    .add-form {
+        width: 300px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .change-title {
+        margin: 0;
+        width: 100px;
+    }
+
+    .change-id {
+        padding-top: 28px;
+    }
+
+    .contacts-wrapper {
+        width: 300px;
+        margin-left: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .select-trigger {
+        background-position: 100% center;
+    }
+
+    .contact-select {
+        padding-left: 3px;
+        padding-right: 10px;
+    }
+
+    .contact-option {
+        padding: 5px 4px;
+    }
+
+    .contact-input {
+        width: 160px;
+    }
+
+    .delete-client {
+        width: 300px;
+    }
+}
