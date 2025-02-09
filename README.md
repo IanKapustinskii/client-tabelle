@@ -15,6 +15,9 @@ Dieses Projekt ist eine interaktive Tabelle zur Verwaltung von Kunden. Es ermög
 ## 🚀 Installation & Nutzung
 
 ### 1 Repository klonen
+```bash
+git clone https://github.com/IanKapustinskii/client-tabelle.git
+```
 
 ## 2 Server starten
 Bevor die Anwendung genutzt werden kann, muss der Server gestartet werden. 
@@ -38,7 +41,5 @@ Um die Anwendung zu starten, öffne die Datei `index.html` in einem beliebigen B
 
 
 
-```bash
-git clone https://github.com/dein-github-username/kundenverwaltung.git
 
 
